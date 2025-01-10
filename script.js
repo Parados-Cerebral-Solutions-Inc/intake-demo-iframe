@@ -72,8 +72,7 @@
     closeButton.style.backgroundColor = '#808080'; // Grey color
     closeButton.style.color = '#fff';
     closeButton.style.border = 'none';
-    closeButton.style.borderRadius = '50%';
-    closeButton.style.padding = '5px 10px';
+    closeButton.style.padding = '4px 8px';
     closeButton.style.cursor = 'pointer';
 
     // Hover effect for close button
