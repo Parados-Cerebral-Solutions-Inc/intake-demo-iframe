@@ -6,9 +6,9 @@
   button.style.right = '0px';
   button.style.margin = '16px';
   button.style.padding = '12px';
-  button.style.width = '72px';
-  button.style.height = '72px';
-  button.style.borderRadius = '50%';
+  button.style.width = 'auto';
+  button.style.height = '64px';
+  button.style.borderRadius = '16px';
   button.style.backgroundColor = '#0c89c3';
   button.style.border = 'none';
   button.style.cursor = 'pointer';
@@ -27,12 +27,13 @@
   });
 
   // Add icon to the button
-  const icon = document.createElement('img');
-  icon.src = 'https://www.parados.app/assets/img/griffinFavicon_edited_old.png';
-  icon.style.width = '100%';
-  icon.style.height = '100%';
-  icon.style.filter = 'invert(100%) contrast(200%)'; // Invert colors to make it white
-  button.appendChild(icon);
+  const title = document.createElement('h3');
+  title.innerText = 'Start Free Now';
+  title.style.fontSize = '28px';
+  title.style.color = '#fff';
+  title.style.width = '100%';
+  // title.style.height = '100%';
+  button.appendChild(title);
 
   // Add click event to the button
   button.addEventListener('click', () => {
